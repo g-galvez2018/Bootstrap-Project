@@ -1,6 +1,20 @@
 body {
-  font-family: "Open Sans", sans-serif;  
+  font-family: "Open Sans", sans-serif; 
+  position: relative;   
 }
+
+h2 { 
+  margin-top: -65px; 
+  padding-top: 65px; 
+  display: inline-block;
+}
+
+h2,h4{
+  color: #F66B27;
+  font-family: "Poppins", sans-serif; 
+}
+
+
 
 .container .navbar-brand {
   font-family: "Satisfy", sans-serif; 
@@ -10,9 +24,9 @@ body {
 
 #losFrijolitos .nav-link {
   font-family: "Poppins", sans-serif; 
-  font-size: 15px;
-  color: white;
+  font-size: 15px;  
 }
+
 
 a.btn.btn-link {
   color:white;
@@ -25,14 +39,31 @@ a.btn.btn-link {
   padding: 0;
 }
 
-.card button {
-  color: white;
+.card-header button {  
+  border: none;
+  text-decoration: none;
+  color: #F66B27;
+}
+
+.card-header button:hover {
+  color: #F66B27;
   border: none;
   text-decoration: none;
 }
 
-.card button:hover {
-  color: white;
+.card-header button:focus {
+  color: #F66B27;
   border: none;
   text-decoration: none;
+  box-shadow: none;
 }
+
+.card-body ul {
+  color: white;
+}
+
+form .btn {
+  background-color: #F66B27;
+  font-family: "Poppins", sans-serif; 
+}
+
