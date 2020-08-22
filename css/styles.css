@@ -16,5 +16,23 @@ body {
 
 a.btn.btn-link {
   color:white;
-  font-size: 1em;
+  font-size: 1em; 
+}
+
+.card-body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card button {
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.card button:hover {
+  color: white;
+  border: none;
+  text-decoration: none;
 }
